@@ -10,7 +10,8 @@ class App < Sinatra::Base
   post '/food' do
     @name = params[:name]
     erb :food
-      #{}"My name is #{params[:name]} and my favorite food is #{params[:favorite_food]}!!"
+      "My name is #{params[:name]} and my favorite food is #{params[:favorite_food]}!!"
     end
+
 
 end
